@@ -14,9 +14,9 @@ Console.WriteLine(result4);
 
 //New Year
 var dateTimeToday = DateTime.Today;
-var dateTimeNewYear =  DateTime(dateTimeToday.Year, 1, 1);
-var dateTimeNewYearNext =  DateTime(dateTimeToday.Year + 1, 1, 1);
+var dateTimeNewYear =  new DateTime(dateTimeToday.Year, 1, 1);
+var dateTimeNewYearNext = new DateTime(dateTimeToday.Year + 1, 1, 1);
 var daysNextYear = (dateTimeNewYearNext - dateTimeToday).TotalDays;
 var daysThisYear = dateTimeToday.DayOfYear;
-Console.WriteLine("left to the New Year");
-Console.WriteLine("days passed from New Year");
+Console.WriteLine($"{daysThisYear} left to the New Year");
+Console.WriteLine($"{daysNextYear} days passed from New Year");

@@ -1,21 +1,21 @@
 ﻿//TestVariables();
 //TestInput();
 //Dates();
-//RandomNumbers();
-Nullable();
+RandomNumbers();
+//Nullable();
 
-void Nullable()
-{
-Nullable<int> nullval1;
-int? nullval = 123;
-var hasval = nullval.HasValue;
-nullval = null;
-hasval = nullval.HasValue;
-var val = nullval.Value;
-Console.WriteLine("Nullable input int");
-var x = Console.ReadLine();
-//int.TryParse(x, out nullval);
-};
+//void Nullable()
+//{
+//Nullable<int> nullval1;
+//int? nullval = 123;
+//var hasval = nullval.HasValue;
+//nullval = null;
+//hasval = nullval.HasValue;
+//var val = nullval.Value;
+//Console.WriteLine("Nullable input int");
+//var x = Console.ReadLine();
+////int.TryParse(x, out nullval);
+//};
 
 
 void RandomNumbers()
